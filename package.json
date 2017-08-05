@@ -2,8 +2,8 @@
   "name": "color-cube",
   "private": true,
   "scripts": {
-    "start": "brunch watch --server",
-    "build": "brunch build --production"
+    "start": "./node_modules/.bin/brunch watch --server",
+    "build": "./node_modules/.bin/brunch build --production"
   },
   "dependencies": {},
   "devDependencies": {
